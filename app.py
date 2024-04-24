@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import os
 import numpy as np
-from fasteda import fast_eda
+
 import plotly.express as px
 import pandas as pd
 from statsmodels.tsa.seasonal import seasonal_decompose
@@ -21,8 +21,7 @@ from statsmodels.tsa.stattools import adfuller
 from statsmodels.tsa.stattools import acf
 from scipy.stats import boxcox
 from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
-from statsmodels.tsa.arima.model import ARIMA
-from statsmodels.tsa.statespace.sarimax import SARIMAX
+
 from statsmodels.tsa.holtwinters import ExponentialSmoothing
 from statsmodels.stats.diagnostic import acorr_ljungbox
 from scipy.stats import shapiro
